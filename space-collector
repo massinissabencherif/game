@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La collecte des étoiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="astronaut">👨‍🚀</div>
+    <div id="score">Score: 0</div>
+    <div id="timer">Temps: 60</div>
+    <div id="instructions" class="modal">
+        <div class="modal-content">
+                <strong>Sur ordinateur : </strong><br> <br>L'astronaute suit <strong>votre souris !</strong><br> <br>Dirigez-le pour le faire attraper le plus d'étoiles possible ! <br> <br>
+                <strong>Sur mobile :</strong><br><br>L'astronaute suit <strong>votre doigt !</strong><br><br> Tapotez sur l'endroit où vous souhaitez l'envoyer et faites lui attraper un maximum d'étoiles au passage !
+            </p>
+            <button id="startButton">J'ai compris ! </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
